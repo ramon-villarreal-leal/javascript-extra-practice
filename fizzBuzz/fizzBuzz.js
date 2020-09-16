@@ -13,3 +13,8 @@ for(i = 1; i <= 100; i++) {
   console.log(i);
  }
 }
+
+//basic for loop
+for(i = 1; i<=10; i++) {
+ console.log(i);
+}
