@@ -29,3 +29,13 @@ function multiplyBy2 (inputNumber) {
 
 const output = multiplyBy2(num)
 const newOutput = multiplyBy2(10);
+
+//Hey you cool cats and kittens....
+//Array stuff
+var myCatFriends = ['Dany', 'Tubbzy', 'Lucky', 'Sunshine'];
+
+myCatFriends.length
+
+myCatFriends.push('super cool cat')
+
+myCatFriends
