@@ -60,3 +60,10 @@ console.log('The fourth shape is: ' + shapes[3]);
 
 console.log('The fifth shape is: ' + shapes[4]);
 // The fifth shape is: undefined
+
+
+
+// loop through the array and log the values
+for (var i = 0; i < shapes.length; i++) {
+ console.log('The shape at index ' + i + ' is: ' + shapes[i]);
+}
