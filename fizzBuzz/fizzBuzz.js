@@ -39,3 +39,24 @@ myCatFriends.length
 myCatFriends.push('super cool cat')
 
 myCatFriends
+
+// array practice
+
+var shapes = ['square', 'rectangle', 'circle', 'triangle'];
+
+console.log('There are ' + shapes.length + ' shapes in the array');
+
+console.log('The first shape is: ' + shapes[0]);
+// The first shape is: square
+
+console.log('The second shape is: ' + shapes[1]);
+// The second shape is: rectangle
+
+console.log('The third shape is: ' + shapes[2]);
+// The third shape is: circle
+
+console.log('The fourth shape is: ' + shapes[3]);
+// The fourth shape is: triangle
+
+console.log('The fifth shape is: ' + shapes[4]);
+// The fifth shape is: undefined
