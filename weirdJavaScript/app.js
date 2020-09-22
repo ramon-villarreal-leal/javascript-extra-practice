@@ -36,24 +36,37 @@
 //
 // a();
 //reads from the bottom up because of being dynamic
+// function b() {
+//     var myVar;
+//     console.log(myVar)
+// }
+//
+// function a() {
+//     var myVar = 2;
+//     console.log(myVar);
+//     b();
+// }
+
+// var myVar = 1;
+// //1
+// console.log(myVar)
+// //2, undefined
+// a();
+// //1
+// console.log(myVar)
+// //undefined
+// b();
+//understanding functions, contexts and variable environments
+
 function b() {
-    var myVar;
+
     console.log(myVar)
 }
 
 function a() {
     var myVar = 2;
-    console.log(myVar);
     b();
 }
 
 var myVar = 1;
-//1
-console.log(myVar)
-//2, undefined
 a();
-//1
-console.log(myVar)
-//undefined
-b();
-//understanding functions, contexts and variable environments
