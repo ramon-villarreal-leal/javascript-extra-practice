@@ -58,15 +58,17 @@
 // b();
 //understanding functions, contexts and variable environments
 
+//===========SCOPE CHAIN=================//
 function b() {
-
     console.log(myVar)
 }
 
 function a() {
-    var myVar = 2;
     b();
 }
 
 var myVar = 1;
 a();
+//first creation phase did not find function b in global execution context
+//function a is visible lexically
+b();
