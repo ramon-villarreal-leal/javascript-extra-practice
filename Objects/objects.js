@@ -1,3 +1,18 @@
+"use strict";
+
+var car = {};
+car.make = "Toyota";
+car.model = "Camry";
+
+// create a logMakeModel method on the car object
+car.logMakeModel = function () {
+    console.log("Car make/model is: " + this.make + " " + this.model);
+};
+
+// log the make/model
+car.logMakeModel();
+
+
 var cars = [
     {
         make: "Toyota",
