@@ -72,3 +72,13 @@ a();
 //first creation phase did not find function b in global execution context
 //function a is visible lexically
 b();
+
+
+function a() {
+    b();
+}
+
+var myVar = 2;
+a();
+
+b();
