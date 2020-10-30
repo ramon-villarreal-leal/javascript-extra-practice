@@ -32,6 +32,16 @@ var cars = [
             age: 31
         }
     }
+
+    {
+        make: "Ford",
+        model: "Raptor",
+        features: ["Automatic Windows", "Great Gas Mileage", "AM/FM Radio"],
+        owner: {
+            name: "Laura Waters",
+            age: 31
+        }
+    }
 ];
 
 console.log("The first car is a " + cars[0].make + " " + cars[0].model + ".");
