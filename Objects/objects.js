@@ -31,7 +31,7 @@ var cars = [
             name: "John Doe",
             age: 31
         }
-    }
+    },
 
     {
         make: "Ford",
