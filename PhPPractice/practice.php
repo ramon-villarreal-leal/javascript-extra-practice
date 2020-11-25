@@ -6,6 +6,7 @@ if($a == $b) {
 echo ' values are equal';
 } else {
 echo 'values are not equal';
-}
+};
+
 
 ?>
