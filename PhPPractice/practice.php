@@ -8,5 +8,8 @@ echo ' values are equal';
 echo 'values are not equal';
 };
 
+for($x = 0; $x <= 100; $x++) {
+    echo "The number is $x";
+}
 
 ?>
