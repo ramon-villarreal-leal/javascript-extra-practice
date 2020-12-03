@@ -43,7 +43,10 @@ switch ($favcolor) {
 //arrays small example
 $cars = array("Volvo", "BMW", "Toyota");
 echo "I like " . $cars[0] . ", " . $cars[1] . " and " . $cars[2] . ".";
-
+//indexed arrays
+$cars[0] = "Volvo";
+$cars[1] = "BMW";
+$cars[2] = "Toyota";
 
 
 
