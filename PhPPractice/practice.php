@@ -57,6 +57,13 @@ $age['Peter'] = "35";
 $age['Ben'] = "37";
 $age['Joe'] = "43";
 
+$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+//loop through an associative array
+foreach($age as $x => $x_value) {
+    echo "Key=" . $x . ", Value=" . $x_value;
+    echo "<br>";
+}
+
 
 
 
