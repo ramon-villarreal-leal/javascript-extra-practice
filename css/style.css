@@ -17,5 +17,8 @@ header {
     margin: 25px;
     color: green;
     height: 95vh;
+}
 
+footer {
+    background-color: aqua;
 }
