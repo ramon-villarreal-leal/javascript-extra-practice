@@ -24,5 +24,8 @@ footer {
 }
 
 .list-background {
-
+    color: red;
+    box-sizing: content-box;
+    border: 1px green;
+    border-style: dashed;
 }
