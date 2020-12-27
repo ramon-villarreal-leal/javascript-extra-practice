@@ -29,3 +29,31 @@ footer {
     border: 1px green;
     border-style: dashed;
 }
+
+.header-h1 {
+    display: block;
+    font-size: 40px;
+    letter-spacing: 5px;
+
+    animation-name: moveInLeft;
+    animation-duration: 5s;
+
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    80% {
+
+    }
+
+
+    100% {
+        opacity: 1;
+
+        transform: translate(0);
+    }
+}
