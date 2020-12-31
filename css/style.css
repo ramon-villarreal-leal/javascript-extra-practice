@@ -57,3 +57,8 @@ footer {
         transform: translate(0);
     }
 }
+
+.list-background {
+    font-weight: bold;
+    animation-name: moveInLeft;
+}
